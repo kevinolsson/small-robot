@@ -1,0 +1,39 @@
+body {
+  background-color: #3f98d8;
+}
+
+h1, h2 {
+  font-family: "Ubuntu";
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+h1 {
+  padding-top: 18%;
+  font-size: 70px;
+  line-spacing: 50%;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+svg {
+  padding: 50px 0px;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  opacity: 0.5;
+  max-width: 500px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+svg path {
+  fill: #fff;
+}
