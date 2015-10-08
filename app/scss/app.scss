@@ -1,0 +1,46 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+@import "normalize";
+@import "settings";
+
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// Behold, here are all the Foundation components.
+@import "foundation/components/grid";
+@import "foundation/components/type";
+
+@import "appstyles";
+
+.top {
+  background: $blue url("../images/homepage-hero@2x.jpg") no-repeat right top;
+  background-color: $blue;
+  height: 100%;
+  width: 100%;
+  padding: 15% 0;
+
+  h1 {
+    line-height: 80%;
+  }
+
+  h1, h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: #FFF;
+  padding: 32px 0;
+  z-index: 0;
+
+  .logo-svg {
+    fill: $light-grey;
+  }
+}
