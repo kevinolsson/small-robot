@@ -1700,25 +1700,22 @@ blockquote p {
     page-break-after: avoid; } }
 
 /* all app scss styles here */
-.top {
-  background: #3f98d8 url("../images/homepage-hero@2x.jpg") no-repeat right top;
+body {
   background-color: #3f98d8;
   height: 100%;
   width: 100%;
   padding: 18% 0; }
-  .top h1 {
+  body h1 {
     line-height: 80%; }
-  .top h1, .top h3 {
+  body h1, body h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
     color: #fff; }
-
-.bottom {
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  background-color: #FFF;
-  padding: 50px 0;
-  z-index: 0; }
-  .bottom .logo-svg {
-    fill: #bdc3c7; }
+  body .svg-wrapper {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 50px 0; }
+  body .logo-svg {
+    fill: #fff;
+    opacity: .5; }

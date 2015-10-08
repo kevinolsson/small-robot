@@ -14,8 +14,7 @@
 
 @import "appstyles";
 
-.top {
-  background: $blue url("../images/homepage-hero@2x.jpg") no-repeat right top;
+body {
   background-color: $blue;
   height: 100%;
   width: 100%;
@@ -30,17 +29,16 @@
     text-transform: uppercase;
     color: #fff;
   }
-}
 
-.bottom {
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  background-color: #FFF;
-  padding: 50px 0;
-  z-index: 0;
+  .svg-wrapper {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 50px 0;
+  }
 
   .logo-svg {
-    fill: $light-grey;
+    fill: #fff;
+    opacity: .5;
   }
 }
