@@ -1,3 +1,3 @@
-## zf5_project
+## Small-Robot
 
-(place your readme here)
+Simple static page for 'Giant-Robot'`s launch this Sunday.
