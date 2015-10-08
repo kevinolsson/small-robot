@@ -1705,7 +1705,7 @@ blockquote p {
   background-color: #3f98d8;
   height: 100%;
   width: 100%;
-  padding: 15% 0; }
+  padding: 18% 0; }
   .top h1 {
     line-height: 80%; }
   .top h1, .top h3 {
@@ -1718,7 +1718,7 @@ blockquote p {
   bottom: 0px;
   width: 100%;
   background-color: #FFF;
-  padding: 32px 0;
+  padding: 50px 0;
   z-index: 0; }
   .bottom .logo-svg {
     fill: #bdc3c7; }
